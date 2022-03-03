@@ -33,7 +33,7 @@ body {
 #center {
     margin: auto;
     min-width: min-content;
-    width: 50vw;
+    width: 50vw; 
     padding: 10px;
     background-color: #2e2e2e;
     box-shadow: 10px 5px 50px #1d1d1d;
