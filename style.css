@@ -11,6 +11,18 @@ body {
     background-image: url('static/icons/ring.svg');
     background-position: center
 }
+
+@keyframes glow {
+    0% {
+        box-shadow: 10px 5px 150px rgba(18,53,135,.4);
+    }
+    50% {
+        box-shadow: 10px 5px 150px rgba(24,180,177,.4);
+    }
+    100% {
+        box-shadow: 10px 5px 150px rgba(18,53,135,.4);
+    }
+}
 #logo {
     height: 35vh;
     width: auto;
@@ -22,7 +34,7 @@ body {
     margin-top: 0px;
     font-family: 'JetBrainsMono';
     font-weight: bolder;
-    background: linear-gradient(90deg, rgba(18,53,135,1) 0%, rgba(24,180,177,1) 50%);
+    background: linear-gradient(90deg, rgba(18,53,135,1) 0%, rgba(24,180,177,1) 75%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 1px 1px 15px rgba(24,180,177,.4);
@@ -33,10 +45,10 @@ body {
 #center {
     margin: auto;
     min-width: min-content;
-    width: 50vw; 
+    width: 40vw; 
     padding: 10px;
-    background-color: #2e2e2e;
-    box-shadow: 10px 5px 50px #1d1d1d;
+    background-color: #353535;
+    /* box-shadow: 10px 5px 50px #1d1d1d; */
     text-align: center;
     top: 50%;
     left: 50%;
@@ -44,6 +56,11 @@ body {
     transform: translate(-50%, -50%);
     margin: 0;
     position: absolute;
+    animation-name: glow;
+    animation-duration: 10s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    border-radius: 25px;
 }
 .img-container {
     text-align: center;
