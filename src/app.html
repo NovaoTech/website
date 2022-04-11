@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="Novao Technologies is a FOSS company developing open products for the world.">
+		<link rel="icon" href="%svelte.assets%/favicon.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<style>
+			@media (prefers-color-scheme: dark) {
+				:root {
+					--body-background-color: #1d1d1d;
+				}
+			}
+			@media (prefers-color-scheme: light) {
+				:root {
+					--body-background-color: #efefee;
+				}
+			}
+			body {
+				background-color: var(--body-background-color);
+				overflow-x: hidden;
+			}
+			* {
+				margin: 0;
+				padding: 0;
+			}
+		</style>
+		%svelte.head%
+	</head>
+	<body>
+		<div>%svelte.body%</div>
+	</body>
+</html>

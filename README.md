@@ -1,2 +1,3 @@
-# website
-The website of Novao (https://novao.xyz/)
+# @NovaoSite/website
+
+This repository contains the code for Novao's website.
