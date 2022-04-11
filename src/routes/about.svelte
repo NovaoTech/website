@@ -13,14 +13,14 @@
 
 	You should have received a copy of the GNU General Public License
 	along with this program.  If not, see <https://www.gnu.org/licenses/>. -->
-	
+
 <script>
 	import Header from '../components/header.svelte';
 	import Footer from '../components/footer.svelte';
 	import Cover from '../components/cover.svelte';
 </script>
 <svelte:head>
-	<title>About | Novao Technologies</title>
+	<title>About Us | Novao</title>
 	<meta name="description" content="Novao Technologies is a FOSS company developing open products for the world.">
 </svelte:head>
 <body>

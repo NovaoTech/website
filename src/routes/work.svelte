@@ -19,7 +19,7 @@
 	import Cover from '../components/cover.svelte';
 </script>
 <svelte:head>
-	<title>Novao Technologies</title>
+	<title>Our Work | Novao</title>
 	<meta name="description" content="Novao Technologies is a FOSS company developing open products for the world.">
 </svelte:head>
 <body>
