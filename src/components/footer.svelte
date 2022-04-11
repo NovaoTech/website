@@ -23,7 +23,7 @@
     <Logo type="mono" color="#2e2e2e" size="100px" />
   </div>
   <div id="info">
-    <div class="child"><span>🄯 2022 Novao Technologies</span></div>
+    <div class="child"><span>🄯 (Copyleft) 2022 Novao Technologies</span></div>
     <div class="child"><span>All wrongs reserved</span></div>
     <div class="child">
       <a href="https://github.com/novaotech/website/">Code available here</a>
