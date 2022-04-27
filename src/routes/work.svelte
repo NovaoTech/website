@@ -25,28 +25,26 @@
     name="description"
     content="Novao Technologies is a FOSS company developing open products for the world."
   />
+  <meta property="og:title" content="What We Do." />
+  <meta
+    property="og:description"
+    content="Learn more about projects that Novao has worked on."
+  />
+  <meta property="og:image" content="/thumb.png" />
 </svelte:head>
 <body>
   <div id="header">
     <Header />
   </div>
-  {#if true}
-    <Cover
-      inner="<span>what we do.</span>"
-      style="padding: 10px; color: rgba(0,0,0,.60);font-family: 'JetBrains Mono'; font-weight: 500; font-size: 12.9vh;"
-    />
-  {:else}
-    <Cover
-      inner="<span>we are novao.</span>"
-      style="padding: 10px; color: rgba(0,0,0,.60);font-family: 'JetBrains Mono'; font-weight: 500; font-size: 14vh;"
-    />
-  {/if}
+  <Cover inner="<span>what we do.</span>" />
   <div id="content">
-    <h1>We're a <span class="highlight">startup.</span></h1>
-    <p class="endpara">
-      This means that we're currently pursuing different projects to work on.
-      Once we have a few ready, we'll update this page with their info :)
-    </p>
+    <div class="section">
+      <h1>We're a <span class="highlight">startup.</span></h1>
+      <p class="endpara">
+        This means that we're currently pursuing different projects to work on.
+        Once we have a few ready, we'll update this page with their info :)
+      </p>
+    </div>
   </div>
 
   <Footer />
@@ -64,20 +62,31 @@
       --text-color: #2e2e2e;
     }
   }
+  @media only screen and (max-width: 700px) {
+    #content {
+      margin-left: 10vw;
+      margin-right: 10vw;
+      width: 80vw;
+    }
+  }
+  @media only screen and (min-width: 700px) {
+    #content {
+      margin-left: 20vw;
+      margin-right: 20vw;
+      width: 60vw;
+    }
+  }
   h1 {
     font-family: "JetBrains Mono";
     padding-top: 15px;
-    padding-left: 10px;
     color: var(--text-color);
     font-size: 7vh;
   }
   p {
-    padding-left: 10px;
     font-family: "JetBrains Mono";
     color: var(--text-color);
-    margin-right: 50vw;
-    min-width: 300px;
     font-size: 3vh;
+    width: 100%;
   }
   .endpara {
     margin-bottom: 3vh;
@@ -95,5 +104,14 @@
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+  #content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .section {
+    width: 100vw;
+    text-align: center;
   }
 </style>

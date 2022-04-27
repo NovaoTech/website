@@ -48,6 +48,7 @@
     background-color: var(--foot-background-color);
     height: 40vh;
     min-height: min-content;
+    text-align: center;
   }
   #logo {
     padding: 2vh;
