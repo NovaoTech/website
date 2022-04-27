@@ -48,10 +48,7 @@
     {@html inner}
   </div>
 {:else if type == "gradient"}
-  <div
-    id="cover"
-    style="background: {color1}; background: linear-gradient(30deg, {color1} 10%, {color2} 100%); {style}"
-  >
+  <div id="cover" class="default-gradient">
     {@html inner}
   </div>
 {:else if type == "image"}
@@ -73,10 +70,67 @@
       --foot-text-color: #2e2e2e;
     }
   }
+  @media only screen and (max-width: 700px) {
+    #cover {
+      font-size: 19vw;
+    }
+  }
+  @media only screen and (min-width: 700px) {
+    #cover {
+      font-size: 12.9vh;
+    }
+  }
   #cover {
     height: calc(100vh);
     display: flex;
-    justify-content: left;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    font-family: "JetBrains Mono";
+    font-weight: 600;
+  }
+  .default-gradient {
+    background: linear-gradient(30deg, #123587, #18b4b1);
+    background-size: 150% 150%;
+
+    -webkit-animation: defaultgradient 15s ease infinite;
+    -moz-animation: defaultgradient 15s ease infinite;
+    animation: defaultgradient 15s ease infinite;
+  }
+
+  @-webkit-keyframes defaultgradient {
+    0% {
+      background-position: 96% 0%;
+    }
+    50% {
+      background-position: 5% 100%;
+    }
+    100% {
+      background-position: 96% 0%;
+    }
+  }
+  @-moz-keyframes defaultgradient {
+    0% {
+      background-position: 96% 0%;
+    }
+    50% {
+      background-position: 5% 100%;
+    }
+    100% {
+      background-position: 96% 0%;
+    }
+  }
+  @keyframes defaultgradient {
+    0% {
+      background-position: 96% 0%;
+    }
+    50% {
+      background-position: 5% 100%;
+    }
+    100% {
+      background-position: 96% 0%;
+    }
   }
 </style>
