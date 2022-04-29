@@ -40,10 +40,9 @@
   <div id="content">
     <div class="section">
       <h1>
-        Our Code is <span class="highlight"
-          ><i class="fa-solid fa-door-open" /> Open.</span
-        >
+        <span class="highlight"><i class="fa-solid fa-door-open" /></span>
       </h1>
+      <h1>Our Code is Open</h1>
       <p>
         Open code is essential to technology. Access to source code allows for
         products to be more secure, and it allows anyone to improve and audit
@@ -51,10 +50,8 @@
       </p>
     </div>
     <div class="section">
-      <h1>
-        <span class="highlight"><i class="fa-solid fa-lock" /> Privacy</span> Is
-        a Right.
-      </h1>
+      <h1><span class="highlight"><i class="fa-solid fa-lock" /></span></h1>
+      <h1>Privacy is a Right</h1>
       <p>
         How would you like it if a secret agent stalked you everywhere your feet
         landed? Sounds creepy? Yeah, we think so too. Privacy is a fundamental
@@ -63,11 +60,8 @@
       </p>
     </div>
     <div class="section">
-      <h1>
-        We Believe in <span class="highlight"
-          ><i class="fa-solid fa-flag" /> Freedom.</span
-        >
-      </h1>
+      <h1><span class="highlight"><i class="fa-solid fa-flag" /></span></h1>
+      <h1>We Believe in Freedom</h1>
       <p>
         Everyone, from developers to users, have fundamental freedoms that must
         be granted. Through open-source licenses and copyleft agreements, we can
@@ -75,7 +69,7 @@
       </p>
     </div>
     <div class="section">
-      <h1>We're <span class="highlight"> novao.</span></h1>
+      <h1>We're <span class="highlight"> novao</span></h1>
       <p class="endpara">
         A FOSS company developing open products for the world.
       </p>
@@ -103,6 +97,9 @@
       margin-right: 10vw;
       width: 80vw;
     }
+    i {
+      display: none;
+    }
   }
   @media only screen and (min-width: 700px) {
     #content {
@@ -116,6 +113,7 @@
     padding-top: 15px;
     color: var(--text-color);
     font-size: 7vh;
+    text-align: center;
   }
   p {
     font-family: "JetBrains Mono";
