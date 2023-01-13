@@ -1,5 +1,5 @@
-<!-- website: Novao Technologies' website, written with SvelteKit.
-	Copyright (C) 2022  Judah Brown, on behalf of Novao Technologies
+<!-- website: Novao Technology's website, written with SvelteKit.
+	Copyright (C) 2022  Judah Brown, on behalf of Novao Technology
 
 	This program is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
@@ -23,7 +23,7 @@
     <Logo type="mono" color="#2e2e2e" size="100px" />
   </div>
   <div id="info">
-    <div class="child"><span>🄯 (Copyleft) 2022 Novao Technologies</span></div>
+    <div class="child"><span>🄯 (Copyleft) 2022 Novao Technology</span></div>
     <div class="child"><span>All wrongs reserved</span></div>
     <div class="child">
       <a href="https://github.com/novaotech/website/">Code available here</a>

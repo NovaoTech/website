@@ -46,7 +46,7 @@
   <title>{error} | Novao</title>
   <meta
     name="description"
-    content="Novao Technologies is a FOSS company developing open products for the world."
+    content="Novao Technology is a FOSS company developing open products for the world."
   />
 </svelte:head>
 <body>

@@ -1,5 +1,5 @@
-<!-- website: Novao Technologies' website, written with SvelteKit.
-	Copyright (C) 2022  Judah Brown, on behalf of Novao Technologies
+<!-- website: Novao Technology's website, written with SvelteKit.
+	Copyright (C) 2022  Judah Brown, on behalf of Novao Technology
 
 	This program is free software: you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
@@ -20,15 +20,15 @@
   </script>
   
   <svelte:head>
-    <title>Novao Technologies</title>
+    <title>Novao Technology</title>
     <meta
       name="description"
-      content="Novao Technologies is a FOSS company developing open products for the world."
+      content="Novao Technology is a FOSS company developing open products for the world."
     />
-    <meta property="og:title" content="Novao Technologies" />
+    <meta property="og:title" content="Novao Technology" />
     <meta
       property="og:description"
-      content="Novao Technologies is a FOSS company developing open products for the world."
+      content="Novao Technology is a FOSS company developing open products for the world."
     />
     <meta property="og:image" content="/thumb.png" />
   </svelte:head>
@@ -53,10 +53,8 @@
         <h1><span class="highlight"><i class="fa-solid fa-lock" /></span></h1>
         <h1><span class="mobileHighlight">Privacy</span> is a Right</h1>
         <p>
-          How would you like it if a secret agent stalked you everywhere your feet
-          landed? Sounds creepy? Yeah, we think so too. Privacy is a fundamental
-          right that everyone should be granted from the get-go, and it should be
-          by one's own decision that their privacy is violated.
+          We strongly affirm that privacy is a fundamental right that everyone should be granted from the get-go.
+          It should be by one's own decision that their privacy is disregarded.
         </p>
       </div>
       <div class="section">
